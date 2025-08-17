@@ -86,7 +86,7 @@ with st.form("trip_form"):
         base_url = "https://api.openweathermap.org/data/2.5/weather"
         params = {
             'q': destinations,
-            'appid': "611bc80b1bf94d3cd15828e2d32231df",
+            'appid': "bc80b1bf94d3cd15828e2d32231df",
             'units': 'metric'
         }
         response = requests.get(base_url, params=params)
@@ -142,5 +142,6 @@ with st.form("trip_form"):
 #data from ollama
 #openweather api
 #stream input output
+#611
 
 
